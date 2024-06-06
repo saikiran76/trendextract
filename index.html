@@ -1,0 +1,18 @@
+
+    <html>
+    <body>
+    <button onclick="fetchTrendingTopics()">Click here to run the script</button>
+    <div id="results"></div>
+    <script>
+    function fetchTrendingTopics() {
+        document.getElementById('results').innerHTML = 'These are the most happening topics as on 2024-06-05 02:42:42.039535:<br>';
+        var trends = [];
+        for (var i = 0; i < trends.length; i++) {
+            document.getElementById('results').innerHTML += '- ' + trends[i] + '<br>';
+        }
+        document.getElementById('results').innerHTML += 'The IP address used for this query was XXX.XXX.XXX.XXX.';
+    }
+    </script>
+    </body>
+    </html>
+    
